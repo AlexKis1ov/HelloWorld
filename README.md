@@ -13,9 +13,9 @@
 
 
     @IBAction func ShowTextPressed() {       -  методы (action)
-        helloWorldLabel.isHidden.toggle()
+        helloWorldLabel.isHidden.toggle()    - этот метод меняет значение логической переменной на противопложенное (т.e делает чтобы надпись появилась)
         
-        if helloWorldLabel.isHidden {
+        if helloWorldLabel.isHidden {                                - сдесь созается условие которое будет действовать при нажатии на кнопку
             showTextButton.setTitle("Show text", for: .normal)
         } else {
             showTextButton.setTitle("Hide text", for: .normal)
